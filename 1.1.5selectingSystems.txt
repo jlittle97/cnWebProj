@@ -1,0 +1,4 @@
+identify what is needed
+use current product knowledge to identify applicable systems
+check forums, industry standards for systems that would work as well/better as initial thoughts
+e.g. using Trello to plan, VSCode to write, and Chrome&firefox to check the site

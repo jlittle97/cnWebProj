@@ -1,0 +1,2 @@
+.html for the pages themselves
+.css for style sheets

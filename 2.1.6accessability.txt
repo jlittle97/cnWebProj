@@ -1,0 +1,6 @@
+make sure text is text and not images
+    this allows it to be scaled up easier and still be readable for those with poor eyesight
+use background/font colours that are easily legible, even for those with colour blindness
+include non visible text with description of images for tts
+make sure things scale well to mobile
+check in other browsers to see if they do anything funny

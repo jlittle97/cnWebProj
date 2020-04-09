@@ -1,0 +1,11 @@
+break down into different pages
+    home
+    unit 1
+    unit 2
+    about
+    references
+using trello to break down all the parts into manageable pieces
+    https://trello.com/b/BSmftFbb/codenationwebsiteproject
+sketches of layout
+use HTML/CSS 
+    VSCode

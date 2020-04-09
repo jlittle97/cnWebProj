@@ -1,0 +1,12 @@
+Trello
+    helped break down the project into smaller easier to manage projects
+    lets you see what is done/still to do at a glance
+    would like the ability to nest tasks
+VSCode
+    has own debugger
+    autofills suggested functions
+    autofill brackets etc
+    easy to use system
+Chrome/firefox
+    Chrome is my default browser so naturally want to use that to check the website works
+    wanted secondary website to ensure it works as intended
