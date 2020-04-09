@@ -9,6 +9,19 @@
     width: 100%;
 }
 
+.nav {
+    float: left;
+}
+
+.activePage {
+    display: block;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .navElement {
     display: block;
     color: white;
