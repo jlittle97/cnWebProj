@@ -1,31 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-top: 115px;
+    background-color: #242b2c;
+}
+
 .navBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: dimgrey;
+    background-color: #080F10;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
 }
-
 .nav {
     float: left;
 }
-
-.activePage {
+.navElement {
+    font-size: 24px;
     display: block;
-    background-color: forestgreen;
-    color: white;
+    color: #F7F5EF;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 24px;
     text-decoration: none;
+    cursor: pointer;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 24px;
+    display: block;
+    color: #F7F5EF;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #616666;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F7F5EF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a:hover {
+    font-size: 24px;
+    display: block;
+    color: #F7F5EF;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.activePage {
+    background-color: #55a3ab;
+    color: #100E08;
+}
+.navElement:hover:not(.activePage) {
+    background-color: #616666;
 }
 
-.navElement {
-    display: block;
-    color: white;
+h1 {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    margin-left: 1%;
+    font-family: 'Lato', sans-serif;
+}
+h3  {
+    margin-left: 2%;
+    font-family: 'Lato', sans-serif;
+}
+p {
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+a {
+    font-family: inherit;
+}
+img {
+    max-width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.textbox {
+    background-color: rgba(188, 202, 204, 0.8);
+    padding: 2% 5% 2% 2%;
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+#welcome {
+    background-color: rgba(188, 202, 204, 0.8);
+    margin: auto;
+    margin-top: 10%;
+    padding: 2% 2%;
+    text-align: center;
+    max-width: 50%;
+}
+#about {
+    background-color: rgba(188, 202, 204, 0.8);
+    margin: auto;
+    margin-top: 10%;
+    padding: 2% 2%;
+    text-align: center;
+    max-width: 50%;
+}
+
+.center {
+    text-align: center;
+    margin: 0em;
 }
